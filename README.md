@@ -3,9 +3,9 @@
   
   <br/>
   
-  <img src="./asset/image.gif" width="150" height="150" style="border-radius: 20px; margin-right: 30px;" alt="profile gif" />
+  <img src="./asset/image.gif" width="100" height="100" style="border-radius: 20px; margin-right: 30px;" alt="profile gif" />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=4000&pause=1000&width=550&lines=Hi!+I'm+MilLoong.+🤗;A+newbie+of+computer+science.+😴;Welcome+to+my+profile!+✨" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&width=500&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" alt="Typing SVG" />
   </a>
   
   <br/><br/>
