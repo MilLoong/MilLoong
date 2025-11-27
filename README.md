@@ -2,7 +2,7 @@
   <table>
     <tr>
       <td valign="top">
-        <img src="./asset/image.gif" width="50" alt="profile gif" />
+        <img src="./asset/image.gif" width="60" alt="profile gif" />
       </td>
       <td align="center" valign="middle">
         <a href="https://git.io/typing-svg">
