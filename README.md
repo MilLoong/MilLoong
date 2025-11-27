@@ -1,20 +1,23 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=150&section=header&fontSize=0" width="100%"/>
-  
-  <table>
-    <tr>
-      <td width="100">
-        <img src="./asset/image.gif" width="70" alt="profile gif" />
-      </td>
-      <td>
-        <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&width=500&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" alt="Typing SVG" />
-        </a>
-      </td>
-    </tr>
-  </table>
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="50%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,3,5,6&height=150&section=header&text=&fontSize=0&animation=fadeIn&fontAlignY=50" width="100%"/>
+
+<table>
+  <tr>
+    <td>
+      <img src="./asset/image.gif" width="140" alt="avatar"/>
+    </td>
+    <td width="30"></td>
+    <td>
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&duration=3000&pause=1000&color=667EEA&background=FFFFFF00&center=false&vCenter=true&repeat=true&width=650&height=80&lines=✨+Welcome+to+MilLoong's+Space!;💫+Computer+Science+Explorer;🎯+Learning+%7C+Coding+%7C+Growing" alt="Typing SVG" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6&height=100&section=footer&fontSize=0&animation=twinkling" width="100%"/>
+
 </div>
 
 ---
