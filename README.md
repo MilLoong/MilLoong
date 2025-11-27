@@ -1,17 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=180&section=header&text=&fontSize=0"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=80&section=header&text=&fontSize=0"/>
 
 <br>
 
-<img src="./asset/image.gif" width="22%" align="right" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=4000&pause=1000&color=3498db&center=true&vCenter=true&width=900&height=110&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" width="70%" />
+<img src="./asset/image.gif" width="22%" style="vertical-align: middle;" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=4000&pause=1000&color=3498db&center=true&vCenter=true&width=900&height=110&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" width="70%" style="vertical-align: middle;" />
 
-<br><br>
+<br>
 
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=140&section=footer&fontSize=0"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=80&section=footer&fontSize=0"/>
 
 </div>
 
