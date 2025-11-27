@@ -14,7 +14,7 @@
     </tr>
   </table>
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="70%"/>
 </div>
 
 ---
