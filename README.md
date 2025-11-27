@@ -1,17 +1,18 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=200&section=header&fontSize=0" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=150&section=header&fontSize=0" width="100%"/>
   
-  <div style="margin-top: -120px;">
-    <img src="./asset/image.gif" width="140" style="border-radius: 70px; border: 5px solid white; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" alt="profile gif" />
-    
-    <br/><br/>
-    
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3500&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=👋+Hi!+I'm+MilLoong;💻+Computer+Science+Newbie;🚀+Keep+Learning+%26+Growing!" alt="Typing SVG" />
-    </a>
-  </div>
-  
-  <br/><br/>
+  <table style="border: none;">
+    <tr>
+      <td width="150" style="padding: 0; border: none;">
+        <img src="./asset/image.gif" width="150" height="150" style="object-fit: cover; border-radius: 15px;" alt="profile gif" />
+      </td>
+      <td style="padding-left: 30px; border: none;">
+        <a href="https://git.io/typing-svg">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=4000&pause=1000&width=550&lines=Hi!+I'm+MilLoong.+🤗;A+newbie+of+computer+science.+😴;Welcome+to+my+profile!+✨" alt="Typing SVG" />
+        </a>
+      </td>
+    </tr>
+  </table>
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="100%"/>
 </div>
