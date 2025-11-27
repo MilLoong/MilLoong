@@ -4,7 +4,7 @@
   <table>
     <tr>
       <td width="100">
-        <img src="./asset/image.gif" width="100" alt="profile gif" />
+        <img src="./asset/image.gif" width="70" alt="profile gif" />
       </td>
       <td>
         <a href="https://git.io/typing-svg">
@@ -14,7 +14,7 @@
     </tr>
   </table>
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="70%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="50%"/>
 </div>
 
 ---
