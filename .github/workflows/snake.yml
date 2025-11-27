@@ -1,41 +1,39 @@
-name: Generate GitHub Snake
+name: Generate contribution snake
 
 on:
   schedule:
-    # 每天世界协调时间 (UTC) 0点运行一次
-    # 如果你想每天在不同时间运行，可以修改这里的 cron 表达式
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  
+    - cron: '0 0 * * *'   # 每天 UTC 00:00（按需修改）
+  workflow_dispatch:     # 允许手动触发
+
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        
-      # 🐍 使用 Platane/snk Action 生成动画
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3 
         with:
-          # 必填：你的 GitHub 用户名
-          github_user_name: ${{ github.repository_owner }} 
-          
-          # 必填：输出文件的路径和名称 (使用 SVG 格式，比 GIF 更清晰)
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark 
+          persist-credentials: true
 
-          # 可选：如果你的主页是黑色的，可以使用这个主题
-          # color_theme: dark
-          
-      # 🚀 将生成的文件推送到仓库
-      - name: Push to Repository
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Generate snake (svg-only, faster)
+        uses: Platane/snk/svg-only@v3
+        id: snake
         with:
-          target_branch: main # 推送到主分支
-          build_dir: dist # 指定包含生成的 SVG 的目录
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 使用内置的 token
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit generated images (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A dist || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update contribution snake"
+            git push
+          fi
