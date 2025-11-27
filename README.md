@@ -1,9 +1,12 @@
 <div align="center">
-  <div>
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&width=435&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" alt="Typing SVG" />
-    </a>
-    <img align="right" src="./asset/image.gif" width="50" alt="profile gif" />
+  <div style="border: 2px solid #30363d; border-radius: 10px; padding: 20px; position: relative; display: inline-block; background: #0d1117;">
+    <img src="./asset/image.gif" width="50" alt="profile gif" style="position: absolute; top: 10px; left: 10px; border-radius: 8px;" />
+    
+    <div style="padding-top: 20px;">
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&width=435&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" alt="Typing SVG" />
+      </a>
+    </div>
   </div>
 </div>
 
