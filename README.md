@@ -1,24 +1,20 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=150&section=header&fontSize=0" width="100%"/>
   
-  <!-- 顶部装饰波浪 -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=&fontSize=0" width="100%"/>
+  <table>
+    <tr>
+      <td width="100">
+        <img src="./asset/image.gif" width="70" alt="profile gif" />
+      </td>
+      <td>
+        <a href="https://git.io/typing-svg">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&width=500&lines=Hi!+I'm+MilLoong.%F0%9F%A4%97;A+newbie+of+computer+science.%F0%9F%98%B4" alt="Typing SVG" />
+        </a>
+      </td>
+    </tr>
+  </table>
   
-  <!-- 主要内容区 - 使用背景图片 -->
-  <div style="margin-top: -150px; margin-bottom: 50px;">
-    <table>
-      <tr>
-        <td width="150" valign="middle">
-          <img src="./asset/image.gif" width="120" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" alt="profile gif" />
-        </td>
-        <td valign="middle">
-          <a href="https://git.io/typing-svg">
-            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=FFFFFF&background=FF000000&center=false&vCenter=true&width=600&lines=Hi!+I'm+MilLoong.+🤗;A+newbie+of+computer+science.+😴;Welcome+to+my+GitHub+profile!+✨" alt="Typing SVG" />
-          </a>
-        </td>
-      </tr>
-    </table>
-  </div>
-  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&fontSize=0" width="100%"/>
 </div>
 
 ---
