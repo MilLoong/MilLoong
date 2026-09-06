@@ -15,7 +15,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dist/top-langs-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./dist/top-langs.svg" />
-    <img alt="Top Languages" src="./dist/top-langs.svg" />
+    <img alt="Top Languages" src="./dist/top-langs.svg" width="880" />
   </picture>
 </div>
 

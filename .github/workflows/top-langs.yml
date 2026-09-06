@@ -21,7 +21,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&title_color=3498db&icon_color=3498db
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&hide_title=true&title_color=3498db&icon_color=3498db&card_width=880
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -29,9 +29,12 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=dark&title_color=3498db&icon_color=3498db
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&hide_title=true&theme=dark&title_color=3498db&icon_color=3498db&card_width=880
           path: dist/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compact language card layout
+        run: python3 scripts/compact_top_langs.py dist/top-langs.svg dist/top-langs-dark.svg
 
       - name: Commit generated images (if any)
         run: |
