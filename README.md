@@ -16,7 +16,7 @@
 
 - **C**：[UESTC 编译原理实验](https://github.com/MilLoong/2025-UESTC-Compiler-Experiment) · [Grade-1-Glimmer](https://github.com/MilLoong/Grade-1-Glimmer) · [cs-easy-02](https://github.com/MilLoong/cs-easy-02) · [……](https://github.com/MilLoong?tab=repositories&language=c)
 - **C++**：[Nailong-Shell](https://github.com/MilLoong/Nailong-Shell) · [Nailong-LSM](https://github.com/MilLoong/Nailong-LSM) · [Nailong-OJ](https://github.com/MilLoong/Nailong-OJ) · [……](https://github.com/MilLoong?tab=repositories&language=c%2B%2B)
-- **Go**：[Nailong-LSM-Go](https://github.com/MilLoong/Nailong-LSM-Go)
+- **Go**：[Nailong-LSM-Go](https://github.com/MilLoong/Nailong-LSM-Go) · [NLOJ-Go](https://github.com/MilLoong/NLOJ-Go)
 - **Python**：[UESTC 教务助手脚本](https://github.com/MilLoong/UESTC-EAMS-Helper-Python) · [课程提醒服务](https://github.com/MilLoong/UESTC-EAMS-Helper-Server) · [雨课堂助手](https://github.com/MilLoong/Nailong-RainClassroomAssitant) · [……](https://github.com/MilLoong?tab=repositories&language=python)
 - **Java**：[NaiLong 招新平台](https://github.com/MilLoong/NaiLong-platform)
 - **Kotlin**：[UESTC 教务助手 Android 版](https://github.com/MilLoong/UESTC-EAMS-Helper-App) · [晚安成电签到 App](https://github.com/MilLoong/UESTC-NightSign-APP)
